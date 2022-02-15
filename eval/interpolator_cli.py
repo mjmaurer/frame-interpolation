@@ -147,7 +147,7 @@ class ProcessDirectory(beam.DoFn):
         natsort.natsorted(tf.io.gfile.glob(f'{directory}/*.{ext}'))
         for ext in _INPUT_EXT
     ]
-    input_frames = functools.reduce(lambda x, y: x + y, input_frames_list)
+    input_frames = functools.reduce(lambda x, y: x + y, sorted(input_frames_list))
     logging.info('Generating in-between frames for %s.', directory)
     frames = list(
         util.interpolate_recursively_from_files(
