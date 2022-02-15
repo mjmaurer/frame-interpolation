@@ -1,3 +1,5 @@
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/vsewall/frame-interpolation/blob/main/sequence_frame_interpolation_1_1.ipynb)
+
 # FILM: Frame Interpolation for Large Scene Motion
 
 ### [Project](https://film-net.github.io/) | [Paper](https://arxiv.org/pdf/2202.04901.pdf) | [YouTube](https://www.youtube.com/watch?v=OAD-BieIjH4) | [Benchmark Scores](https://github.com/google-research/frame-interpolation) <br>
