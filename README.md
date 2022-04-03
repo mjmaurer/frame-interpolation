@@ -1,3 +1,8 @@
+!pip install tensorflow-datasets==4.4.0 tensorflow-addons==0.15.0 absl-py==0.12.0 gin-config==0.5.0 parameterized==0.8.1 mediapy==1.0.3 scikit-image==0.19.1 apache-beam==2.34.0
+
+
+!pip install absl-py==0.12.0 gin-config==0.5.0 parameterized==0.8.1 mediapy==1.0.3 scikit-image==0.19.1 apache-beam==2.34.0
+
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/vsewall/frame-interpolation/blob/main/sequence_frame_interpolation_1_1.ipynb)
 
 # FILM: Frame Interpolation for Large Scene Motion
